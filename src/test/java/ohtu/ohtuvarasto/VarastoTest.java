@@ -107,7 +107,7 @@ public class VarastoTest {
     @Test
     public void eiVoiLuodaHassuaVarastoa() {
 
-        varasto = new Varasto(-1, 5);
+        varasto = new Varasto(-1, 6);
         assertEquals(0.0, varasto.getTilavuus(), vertailuTarkkuus);
 
         varasto = new Varasto(10, -1);
